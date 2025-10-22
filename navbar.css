@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Body */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+/* Left navbar -- Logo Image to Home*/
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+/* Main navbar */
+
+.navbar {
+  background-color: #001b3d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 0px 10px;
+}
+
+/* Center navbar */
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links {
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+.nav-links a:hover {
+  color: rgb(240, 240, 135);
+  transition: all 0.45s;
+}
+
+/* Right navbar -- Contact button */
+
+.nav-contact-button {
+  text-decoration: none;
+  color: #001b3d;
+  background-color: white;
+  padding: 8px 10px;
+  border-radius: 20px;
+  border: 1px solid #001b3d;
+}
+.nav-contact-button:hover {
+  
+  background-color: rgb(240, 240, 135);
+  border: 1px solid rgb(240, 240, 135);
+  transition: all 0.5s;
+}
