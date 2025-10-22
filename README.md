@@ -1,4 +1,6 @@
-## Hi there 👋
+## Project LITD (Light in the Darkness)
+
+Initial repo for all future projectLITD website files and the development of current ones.
 
 <!--
 **projectlitd/ProjectLITD** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
